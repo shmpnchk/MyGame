@@ -36,7 +36,7 @@ try:
 except:
     use_bucket_image = False
 
-# ОБЫЧНАЯ КАРТОШКА
+# NORMAL POTATO
 try:
     potato_img = pygame.image.load("images/potato.png")
     potato_img = pygame.transform.scale(potato_img, (50, 50))
@@ -44,7 +44,7 @@ try:
 except:
     use_potato_image = False
 
-# ЯДОВИТАЯ КАРТОШКА
+# POISONOUS POTATO
 try:
     poison_img = pygame.image.load("images/poison_potato.png")
     poison_img = pygame.transform.scale(poison_img, (50, 50))
